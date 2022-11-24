@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-image: url(../image/slattery.jpg);
+}
+
+.container {
+  width: calc(150px * 8 + 16px);
+  height: 100%;
+  display: grid;
+  grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+  justify-content: center;
+  margin: 20px auto;                                                                                                    
+ 
+  border: 8px solid white;
+}
+
+.black {
+  background-color: rgb(200, 200, 218);
+  border: 1px solid black;
+}
+
+.white {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.item:hover {
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+/* .container{
+color: rgb(151, 151, 185);
+} */
