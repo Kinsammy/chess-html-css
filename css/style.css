@@ -12,8 +12,8 @@ body {
   width: calc(150px * 8 + 16px);
   height: 100%;
   display: grid;
-  grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
-  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+  grid-template-rows: repeat(8, 150px);
+  grid-template-columns: repeat(8, 150px);
   justify-content: center;
   margin: 20px auto;                                                                                                    
  
